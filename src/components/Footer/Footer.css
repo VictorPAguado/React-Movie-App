@@ -1,0 +1,40 @@
+* {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  z-index: 1;
+  
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-evenly;
+  color: white;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: blod;
+  box-shadow: 0 -10px 10px -10px #555;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}

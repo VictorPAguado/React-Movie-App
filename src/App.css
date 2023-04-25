@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: blod;
+  box-shadow: 0 3px 6px 0 #555;
+}
+
+.appname{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon{
+  width: 60px;
+  height: 48px;
+  margin: 15px;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 50%;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.searchInput {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  width: 100%;
+  background: transparent;
+}
+
+.searchInput::placeholder {
+  color: #999;
+}
+
+.movieListContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 25px;
+  justify-content: space-evenly;;
+}
+
+.homepage{
+  background-image: url("../public/images/fondo.jpg");
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e5d089;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(201, 139, 14);
+  border-radius: 10px;
+  width: 8px;
+}
